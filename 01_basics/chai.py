@@ -1,3 +1,3 @@
-from hello_chai import ichai
+from hello_chai import chai
 
 chai("cold coffee")
