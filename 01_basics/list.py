@@ -1,7 +1,6 @@
+#list
 chai_variety = ['Black', 'Oolong', 'Lemon', 'Herbal']
-
 chai_variety[0] #output: 'black'
-
 chai_variety[1:2] #output: ['Oolong']
 
 #for loop on list
