@@ -6,8 +6,22 @@ pet_age = int(input("Enter The age of your Pet: "))
 
 if pet_species == "cat":
     if pet_age > 5:
-        print("AI Suggest Puppy Food For Your Pet!")
+        print("AI Suggest Senior Food For Your Cat!")
+    elif pet_age > 0:
+        print("AI Suggest Puppy Food For Your Cat!")
     else:
-        print()
+        print("Invalid Input")
+        exit()
+elif pet_species == "dog":
+    if pet_age > 2:
+        print("AI Suggest Senior Food For Your Dog!")
+    elif pet_age > 0:
+        print("AI Suggest Puppy Food For Your Dog!")
+    else:
+        print("Invalid Input")
+        exit()
+else:
+    print("Invalid Input")
+    exit()
         
 
